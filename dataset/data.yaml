@@ -1,26 +1,26 @@
-path: /dataset
-train: /dataset/images/train
-val: /dataset/images/test
+path: C:/Users/sam20/OneDrive/Documentos/IA/CuartoIA/Vision_por_computador/practica6competicion/deteccion-de-sinais-de-trafico/dataset
+train: images/train
+val: images/val
 
 names:
-  1: bus_stop
-  2: do_not_enter
-  3: do_not_stop
-  4: do_not_turn_l
-  5: do_not_turn_r
-  6: do_not_u_turn
-  7: enter_left_lane
-  8: green_light
-  9: left_right_lane
-  10: no_parking
-  11: parking
-  12: ped_crossing
-  13: ped_zebra_cross
-  14: railway_crossing
-  15: red_light
-  16: stop
-  17: t_intersection_l
-  18: traffic_light
-  19: u_turn
-  20: warning
-  21: yellow_light
+  0: bus_stop
+  1: do_not_enter
+  2: do_not_stop
+  3: do_not_turn_l
+  4: do_not_turn_r
+  5: do_not_u_turn
+  6: enter_left_lane
+  7: green_light
+  8: left_right_lane
+  9: no_parking
+  10: parking
+  11: ped_crossing
+  12: ped_zebra_cross
+  13: railway_crossing
+  14: red_light
+  15: stop
+  16: t_intersection_l
+  17: traffic_light
+  18: u_turn
+  19: warning
+  20: yellow_light
