@@ -1,3 +1,4 @@
+#Creacion de un dataset con data augmentation de la libreria Albumentation
 import albumentations as A
 import cv2
 import os
@@ -6,9 +7,8 @@ import shutil
 from tqdm import tqdm
 
 # --- CONFIGURACIÓN DE RUTAS ---
-# Usamos r'' para evitar problemas con las barras invertidas de Windows
-BASE_DIR = r"C:\Users\sam20\OneDrive\Documentos\IA\CuartoIA\Vision_por_computador\practica6competicion\deteccion-de-sinais-de-trafico\dataset"
-OUTPUT_DIR = r"C:\Users\sam20\OneDrive\Documentos\IA\CuartoIA\Vision_por_computador\practica6competicion\deteccion-de-sinais-de-trafico\dataset_aug"
+BASE_DIR = "\dataset"
+OUTPUT_DIR = "\dataset_aug"
 
 # Rutas de entrada (Train)
 INPUT_IMAGES_TRAIN = os.path.join(BASE_DIR, 'images', 'train')
