@@ -4,6 +4,15 @@ Proyecto de detección de señales de tráfico mediante modelos de detección de
 
 El repositorio incluye el dataset con sus etiquetas, scripts de entrenamiento e inferencia, y los resultados obtenidos con distintos modelos.
 
+## Ejemplo de validación para el modelo de YOLOv8 L con las métricas obtenidas
+<p align="center">
+  <img src="https://github.com/samuelgtrz/Traffic-Signal-Detection/blob/main/resultados_yolo/yolo_trafico_L/val_batch1_pred.jpg?raw=true" width="600">
+</p>
+
+<p align="center">
+  <img src="https://github.com/samuelgtrz/Traffic-Signal-Detection/blob/main/resultados_yolo/yolo_trafico_L/BoxPR_curve.png?raw=true" width="600">
+</p>
+
 ---
 
 ## 🧠 Descripción del proyecto
