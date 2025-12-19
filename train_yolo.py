@@ -1,3 +1,4 @@
+#Script to fine tune YOLO models
 from ultralytics import YOLO
 import torch
 import os
