@@ -29,7 +29,7 @@ def check_dataset_structure(base_dir):
 
 if __name__ == "__main__":
 
-    BASE_DIR ="/mnt/netapp2/Store_uni/home/usc/cursos/curso1589/VISION/practica6competicion/deteccion-de-sinais-de-trafico/dataset"
+    BASE_DIR ="/dataset"
     DATA_YAML = BASE_DIR + "/data.yaml"
 
     print("=== INICIO DEL ENTRENAMIENTO YOLOv8 ===")
