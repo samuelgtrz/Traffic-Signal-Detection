@@ -1,6 +1,0 @@
-OPCION 1: YOLOv8
-OPCION 2: FASTER R-CNN
-
-cambiar eso 3️⃣ Tus clases empiezan en 1 en lugar de 0
-
-YOLO exige que las clases vayan desde 0 hasta N−1, no desde 1.
